@@ -1,0 +1,8 @@
+version: "1.0.0"
+services:
+  serverapp:
+    build: .
+    ports:
+      - "3600:3600"
+    env_file:
+      - .env
